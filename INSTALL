@@ -1,1 +1,28 @@
-link /usr/share/automake-1.11/INSTALL
+INSTALL
+
+Mulp is developed with C++ and Wx and libxml++ is used for xml parsing, so we need Wx widgets and libxml++.
+
+Wx widgets, http://www.wxwidgets.org
+Libxml++, http://libxmlplusplus.sourceforge.net
+
+After installing Wx widgets and libxml++, download mulp source from http://sourceforge.net/projects/mulp
+
+Open the tar ball of mulp
+	
+tar xzvf mulp-0.0.1.tar.gz
+
+then cd to mulp directory
+	
+cd mulp-0.0.1
+./autogen.sh
+./configure
+make
+
+Login with root user
+
+and
+	
+make install
+
+if you are using ubuntu or fedora or a distro with sudo
+
