@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mulp>
+	<information>
+		<developers>
+			<developer>Onur GUZEL onur.oguzel@gmail.com</developer>
+		</developers>
+		<version>0.0.1</version>
+		<website>http://mulp.sourceforge.net</website>
+		<apptitle>Ubuntu Control Panel</apptitle>
+	</information>
+	<setting>
+		<pluginfolder>plugins</pluginfolder>
+		<logindialog></logindialog>
+		<logo></logo>
+		<image>/usr/share/mulp/images/ubuntu.png</image>
+		<theme></theme>
+		<splash></splash>
+		<feed></feed>
+	</setting>
+	<pages>
+		<page id="1" name="Software" title="Software" image="/usr/share/mulp/images/softwarecenter.png">
+			<plugins>
+				<plugin type="program" name="update-manager" title="Online Update" image="/usr/share/mulp/images/onlineupdate.png">Online Update</plugin>
+				<plugin type="program" name="synaptic" title="Install Remove Software" image="/usr/share/mulp/images/installandremovesoftware.png">Install and Remove Software</plugin>
+				<plugin type="program" name="gnome-default-applications-properties" title="Preferred Applications" image="/usr/share/mulp/images/preferredapplications.png">Boot</plugin>
+				<plugin type="program" name="gnome-session-properties" title="Startup Applications" image="/usr/share/mulp/images/startupapplications.png">Startup Applications</plugin>
+				<plugin type="program" name="software-properties-gtk" title="Software Sources" image="/usr/share/mulp/images/softwaresource.png">Software Sources</plugin>
+				<plugin type="dialog" name="/home/onur/Development/mulpso/src/.libs/libmulpso.so" title="Clean Computer" image="/usr/share/mulp/images/temizle.png">Clean Computer</plugin>
+				<plugin type="dialog" name="/home/onur/Development/mulpso/src/.libs/libmulpso.so" title="Clean Computer" image="/usr/share/mulp/images/temizle.png">Clean Computer</plugin>
+			</plugins>
+		</page>
+		<page id="2" name="Hardware" title="Hardware" image="/usr/share/mulp/images/drivers.png">
+			<plugins>
+				<plugin type="program" name="bluetooth-properties" title="Bluetooth" image="/usr/share/mulp/images/bluetooth.png">Bluetooth</plugin>
+				<plugin type="program" name="jockey-gtk" title="Drivers" image="/usr/share/mulp/images/driversinfo.png">Drivers</plugin>
+				<plugin type="program" name="palimpsest" title="Disk Utility" image="/usr/share/mulp/images/diskutility.png">Disk Utility</plugin>
+				<plugin type="program" name="gnome-keyboard-properties" title="Keyboard" image="/usr/share/mulp/images/input-keyboard.png">Keyboard</plugin>
+				<plugin type="program" name="gnome-display-properties" title="Monitors" image="/usr/share/mulp/images/monitors.png">Monitors</plugin>
+				<plugin type="program" name="gnome-mouse-properties" title="Mouse" image="/usr/share/mulp/images/input-mouse.png">Mouse</plugin>
+				<plugin type="program" name="gnome-volume-control" title="Sound" image="/usr/share/mulp/images/preferences-desktop-sound.png">Sound</plugin>
+				<plugin type="program" name="usb-creator-gtk" title="Startup Disk" image="/usr/share/mulp/images/usbdiskgtk.png">Startup Disk</plugin>
+				<plugin type="program" name="system-config-printer" title="Printing" image="/usr/share/mulp/images/printer.png">Printing</plugin>
+				<plugin type="program" name="gnome-power-preferences" title="Power Management" image="/usr/share/mulp/images/gnome-power-manager.png">Power Management</plugin>
+			</plugins>
+		</page>
+		<page id="3" name="System" title="System" image="/usr/share/mulp/images/system.png">
+			<plugins>
+				<plugin type="program" name="gdmsetup" title="Login Screen" image="/usr/share/mulp/images/gdm-setup.png">Login Screen</plugin>
+				<plugin type="program" name="gnome-system-log" title="Log File Reviewer" image="/usr/share/mulp/images/logviewer.png">Log File Viewer</plugin>
+				<plugin type="program" name="gnome-system-monitor" title="System Monitor" image="/usr/share/mulp/images/monitor.png">System Monitor</plugin>
+				<plugin type="program" name="time-admin" title="Time and Date" image="/usr/share/mulp/images/time-admin.png">Time and Date</plugin>
+				<plugin type="program" name="users-admin" title="Users and Groups" image="/usr/share/mulp/images/usersgroups.png">Users and Groups</plugin>
+				<plugin type="program" name="checkbox-gtk" title="System Testing" image="/usr/share/mulp/images/systemsettings.png">System Testing</plugin>
+			</plugins>
+		</page>
+		<page id="4" name="Network" title="Network" image="/usr/share/mulp/images/network.png">
+			<plugins>
+				<plugin type="program" name="gnome-nettool" title="Network Setting" image="/usr/share/mulp/images/networksettings.png">Network Setting</plugin>
+				<plugin type="program" name="nm-connection-editor" title="Network Connections" image="/usr/share/mulp/images/network.png">Network Connections</plugin>
+				<plugin type="program" name="gnome-file-share-properties" title="Personal File Sharing" image="/usr/share/mulp/images/remotefolder.png">Personal File Sharing</plugin>
+				<plugin type="program" name="gnome-network-properties" title="Network Proxy" image="/usr/share/mulp/images/networkproperties.png">Network Proxy</plugin>
+				<plugin type="program" name="vino-preferences" title="Remote Desktop" image="/usr/share/mulp/images/remotedesktop.png">Remote Desktop</plugin>
+				<plugin type="program" name="bluetooth-properties" title="Bluetooth" image="/usr/share/mulp/images/bluetooth.png">Bluetooth</plugin>
+			</plugins>
+		</page>
+		<page id="5" name="" title="Language &amp; Accesibility" image="/usr/share/mulp/images/region.png">
+			<plugins>
+				<plugin type="program" name="gnome-at-properties" title="Accessibility" image="/usr/share/mulp/images/accessibility.png">Accessibility</plugin>
+				<plugin type="program" name="/usr/bin/gnome-language-selector" title="Language Support" image="/usr/share/mulp/images/language.png">Language Support</plugin>
+				<plugin type="program" name="gnome-keyboard-properties" title="Keyboard Layout" image="/usr/share/mulp/images/input-keyboard.png">Keyboard Layout</plugin>
+				<plugin type="program" name="gnome-keybinding-properties" title="Keyboard Shortcuts" image="/usr/share/mulp/images/shortcuts.png">Keyboard Shortcuts</plugin>
+			</plugins>
+		</page>
+		<page id="6" name="Appearance" title="Appearance" image="/usr/share/mulp/images/appearance.png">
+			<plugins>
+				<plugin type="program" name="gnome-appearance-properties" title="Appearance" image="/usr/share/mulp/images/appearance.png">Theme</plugin>
+				<plugin type="program" name="ccsm" title="Compiz Configuration" image="/usr/share/mulp/images/ccsm.png">Compiz Configuration</plugin>
+				<plugin type="program" name="alacarte" title="Main Menu" image="/usr/share/mulp/images/mainmenu.png">Main Menu</plugin>
+				<plugin type="program" name="nautilus-actions-config-tool" title="Nautilius Configuration" image="/usr/share/mulp/images/nautilus.png">Nautilius Configuration</plugin>
+				<plugin type="program" name="gnome-screensaver-preferences" title="Screensaver" image="/usr/share/mulp/images/screensaver.png">Screensaver</plugin>
+				<plugin type="program" name="gnome-window-properties" title="Windows" image="/usr/share/mulp/images/desktopinfo.png">Windows</plugin>
+			</plugins>
+		</page>
+	</pages>
+</mulp>
